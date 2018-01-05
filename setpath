@@ -1,0 +1,18 @@
+export CLASSPATH=":/home/rahul/java/lucene-5.0.0/queryparser/lucene-queryparser-5.0.0.jar:/home/rahul/java/lucene-5.0.0/analysis/common/lucene-analyzers-common-5.0.0.jar:/home/rahul/java/lucene-5.0.0/core/lucene-core-5.0.0.jar:/home/rahul/java/demo/lucene-demo-5.0.0.jar:/home/rahul/java/lucene-5.0.0/mysql-connector-java-5.1.12-bin.jar"
+
+jdbc driver
+/home/rahul/java/lucene-5.0.0/mysql-connector-java-5.1.12-bin.jar
+
+
+
+
+ C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\Java\jdk1.8.0_77\bin
+
+windows path
+set CLASSPATH="E:\lucene-5.0.0\queryparser\lucene-queryparser-5.0.0.jar;E:\lucene-5.0.0\analysis\common\lucene-analyzers-common-5.0.0.jar;E:\lucene-5.0.0\lucene-core-5.0.0.jar;E:\lucene-5.0.0\demo\lucene-demo-5.0.0.jar;E:\lucene-5.0.0\mysql-connector-java-5.1.12-bin.jar"
+ 
+final try 
+java -classpath E:\lucene-5.0.0\queryparser\lucene-queryparser-5.0.0.jar;E:\lucene-5.0.0\analysis\common\lucene-analyzers-common-5.0.0.jar;E:\lucene-5.0.0\lucene-core-5.0.0.jar;E:\lucene-5.0.0\demo\lucene-demo-5.0.0.jar;E:\lucene-5.0.0\mysql-connector-java-5.1.12-bin.jar org.apache.lucene.demo.IndexFiles -docs E:\lucene-5.0.0\datadir
+
+for run search
+java -classpath E:\lucene-5.0.0\queryparser\lucene-queryparser-5.0.0.jar;E:\lucene-5.0.0\analysis\common\lucene-analyzers-common-5.0.0.jar;E:\lucene-5.0.0\lucene-core-5.0.0.jar;E:\lucene-5.0.0\demo\lucene-demo-5.0.0.jar;E:\lucene-5.0.0\mysql-connector-java-5.1.12-bin.jar org.apache.lucene.demo.SearchFiles
